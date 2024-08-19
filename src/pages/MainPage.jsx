@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import Hero from "../components/Hero";
 import { useDispatch, useSelector } from "react-redux";
 import { getPopular } from "../redux/actions/movieAction";
-import { getGenres } from "../redux/actions/genreAction";
 import Loader from "../components/Loader";
 import Error from "../components/Error";
 import MovieList from "../components/MovieList";
+import { getGenres } from "../redux/actions/genreActions";
 
 const MainPage = () => {
   const dispatch = useDispatch();

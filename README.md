@@ -7,3 +7,4 @@ redux-thunk
 @splidejs/react-splide
 millify
 API:https://www.themoviedb.org/# Netflix_Clone
+# Netflix_Clone

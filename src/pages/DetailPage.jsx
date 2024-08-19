@@ -7,7 +7,7 @@ import { baseImgUrl } from "../constants";
 import DetailDisplay from "../components/DetailDisplay";
 import millify from "millify";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import ActorCard from "../components/ActorCard";
+import ActorCard from "../components/ActorCart";
 
 const DetailPage = () => {
   const [movie, setMovie] = useState(null);
